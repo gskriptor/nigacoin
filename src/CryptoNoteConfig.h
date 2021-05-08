@@ -24,7 +24,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 //TODO Specify total number of available coins
 //TODO ((uint64_t)(-1)) equals to 18446744073709551616 coins
 //TODO or you can define number explicitly UINT64_C(858986905600000000)
-const uint64_t MONEY_SUPPLY                                  = ;
+const uint64_t MONEY_SUPPLY                                  = 11946724033309558371;
 const unsigned EMISSION_SPEED_FACTOR                         = 18;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
@@ -124,6 +124,6 @@ __attribute__((unused))
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
   //{ 10000, "84b6345731e2702cdaadc6ce5e5238c4ca5ecf48e3447136b2ed829b8a95f3ad" },
 };
-} // CryptoNote
+} // NigaCoin
 
 #define ALLOW_DEBUG_COMMANDS
